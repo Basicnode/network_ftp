@@ -36,7 +36,6 @@ def cli():
                 client_socket.close()
             else:
                 # 保存文件路径
-                # fp = 'E:/'
                 fp = config.get(section='section', key='download_file_path')
                 with open(fp + filename, 'wb') as file:
                     file.write(data)

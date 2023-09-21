@@ -14,6 +14,6 @@ class MyConfig:
 
 
 config = MyConfig('config.ini')
-# 测试
+# 测试验证
 # value1 = config.get("section", 'port')
 # value = config.get("section", 'file_save_path')

@@ -22,7 +22,7 @@ def service():
         # 等待客户端连接
         print('等待客户端连接...')
         client_socket, addr = server_socket.accept()
-        print('客户端已连接，地址：', addr)
+        print('客户端已连接, 地址：', addr)
 
         # 接收客户端发送的下载/上传编号
         user_input = client_socket.recv(1024).decode('utf-8')
